@@ -1,0 +1,18 @@
+{
+    "id": "mouseBattery",
+    "name": "Mouse Battery & DPI",
+    "description": "Show wireless mouse battery in the bar and adjust DPI from a popout (solaar / ratbagctl backend)",
+    "version": "1.0.0",
+    "author": "ripolin",
+    "type": "widget",
+    "capabilities": ["dankbar-widget", "monitoring", "input-device"],
+    "component": "./MouseBatteryWidget.qml",
+    "icon": "mouse",
+    "settings": "./MouseBatterySettings.qml",
+    "requires_dms": ">=0.1.0",
+    "requires": ["upower"],
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ]
+}
