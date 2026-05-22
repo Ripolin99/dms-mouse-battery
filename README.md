@@ -1,5 +1,6 @@
 # Mouse Battery & DPI — DankMaterialShell plugin
 ------ WORK IN PROGRESS ------
+
 A [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) bar
 plugin that shows the battery level of a wireless mouse and lets you switch
 DPI presets from a popout.
